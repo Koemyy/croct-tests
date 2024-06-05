@@ -1,6 +1,6 @@
 # Croct Tests
 
-Just a project to teste Croct code generator.
+Just a project to test Croct code generator.
 
 ## Technologies Used
 
