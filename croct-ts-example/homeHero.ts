@@ -5,7 +5,7 @@ export async function renderHomeHero(container: HTMLElement, fallback: SlotConte
   // Display a loading message while the content is being fetched
   container.innerText = '✨ Personalizing...';
 
-  const {content} = await croct.fetch('home-hero@1').catch(() => ({content: fallback});
+  const {content} = await croct.fetch('home-hero@1').catch(() => ({content: fallback}));
 
   // Remove the loading message
   container.replaceChildren();
