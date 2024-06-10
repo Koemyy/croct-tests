@@ -1,7 +1,7 @@
 import { renderHomeHero } from "./homeHero";
 
 document.addEventListener("DOMContentLoaded", () => {
-  renderHomeHero(document.querySelector("#slot"), {
+  renderHomeHero(document.querySelector("#slot")!, {
     title: "Hello, world!",
     description: "This is a sample hero banner",
     visible: true,
